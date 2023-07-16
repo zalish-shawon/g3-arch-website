@@ -29,8 +29,15 @@
  }
  .banner {
     text-align: center;
-    width: 65%;
+    width: 85%;
     margin: 65px auto 0 auto;
+ }
+ .description {
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #727272;
+    font-weight: 400;
  }
 .banner-title {
     font-size: 3rem;
@@ -52,6 +59,30 @@
     border-radius: 8px;
     border: none;
     
+}
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+.quick-container {
+    display: flex;
+    padding: 55px;
+    gap: 76px;
+    align-items: center;
+}
+.quick-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.quick-img img {
+    width: 250px;
+    height: 250px;
+}
+.quick-contents p {
+    color: #727272;
+    font-weight: 400;
 }
 
 
